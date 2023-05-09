@@ -1,0 +1,14 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "Real pets are great, but they do have drawbacks. They smell. Your mum might be allergic to them. Maybe you just aren't allowed one in your flat. To solve these problems, we're going to make our own JavaScript pets.",
+  "main": "pet.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dal Bahia",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
