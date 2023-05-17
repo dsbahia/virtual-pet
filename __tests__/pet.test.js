@@ -161,9 +161,9 @@ describe('growUp', () => {
       expect(pet.isAlive).toEqual(true);
     });
   });
-    describe('haveBaby', () => {
-      it('create a parent pet instance of an object', () => {
-        const parent = new Pet('Dave');
-        expect(parent instanceof Pet).toBe(true);
-      });
+  describe('haveBaby', () => {
+    it('create a parent pet instance of an object', () => {
+      const parent = new Pet('Dave');
+      expect(parent instanceof Pet).toBe(true);
+    });
 });
