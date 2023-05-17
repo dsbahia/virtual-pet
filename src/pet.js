@@ -65,4 +65,14 @@ Pet.prototype.checkUp = function () {
     return "I feel great!";
 }
 
+Pet.prototype.haveBaby = function(childName) {
+    const childPet = new Pet(childName);
+
+    if (!this.children) {
+      this.children = [];
+    }
+  
+    this.children.push(childPet);
+};
+
 module.exports = Pet;
