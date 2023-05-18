@@ -139,6 +139,7 @@ describe('growUp', () => {
       pet.age = 30;
       expect(pet.isAlive).toEqual(false);
     });
+
     it('if pets hunger is 10 or more, return false', () => {
       const pet = new Pet ('Fido');
       pet.fitness = 0;
@@ -146,6 +147,7 @@ describe('growUp', () => {
       pet.age = 30;
       expect(pet.isAlive).toEqual(false);
     });
+
     it('if pets age is 30 or more, return false', () => {
       const pet = new Pet ('Fido');
       pet.fitness = 0;
@@ -153,6 +155,7 @@ describe('growUp', () => {
       pet.age = 31;
       expect(pet.isAlive).toEqual(false);
     });
+
     it('if none of the above conditions are met, return true', () => {
       const pet = new Pet ('Fido');
       pet.fitness = 1;
@@ -161,16 +164,19 @@ describe('growUp', () => {
       expect(pet.isAlive).toEqual(true);
     });
   });
+
   describe('haveBaby', () => {
     it('create a parent pet instance of an object', () => {
       const parent = new Pet('Dave');
       expect(parent instanceof Pet).toBe(true);
     });
+
     it('should call method, add a child pet to the parent', () => {
       const parent = new Pet('Dave');
       parent.haveBaby('Amelia');
       expect(parent.children[0].name).toBe('Amelia');
     });
+    
     it('Assert that the parent pets children property is an array, where the first element is an instance of Pet with a name property of Billy', () => {
       const parent = new Pet('Dave');
       parent.haveBaby('Billy');
