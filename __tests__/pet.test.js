@@ -166,4 +166,16 @@ describe('growUp', () => {
       const parent = new Pet('Dave');
       expect(parent instanceof Pet).toBe(true);
     });
+    it('should call method, add a child pet to the parent', () => {
+      const parent = new Pet('Dave');
+      parent.haveBaby('Amelia');
+      expect(parent.children[0].name).toBe('Amelia');
+    });
+    it('Assert that the parent pets children property is an array, where the first element is an instance of Pet with a name property of Billy', () => {
+      const parent = new Pet('Dave');
+      parent.haveBaby('Billy');
+      expect(parent.children).toEqual(expect.any(Array));
+      expect(parent.children.length).toBe(1);
+      expect(parent.children[0].name).toBe('Billy');
+    });
 });
