@@ -11,7 +11,6 @@ function Pet(name) {
     this.age = 0;
     this.hunger = minimumHunger;
     this.fitness = maximumFitness;
-    this.children = [];
 }
 
 Pet.prototype = {
