@@ -13,9 +13,19 @@ The pets we're going to make will have the following features:
 - As they get older, they get hungrier and less fit 🏋️
 - We can walk our pet to increase it's fitness. 🏃‍♂️
 - We can feed our pet to decrease it's hunger. 🍕
-- We can talk to your pet to see if it needs feeding or walking 🚶
+- We can talk to our pet to see if it needs feeding or walking 🚶
 - If our pet gets too hungry or unfit, it will DIE 💀
 - If our pet gets to 30 days old it will DIE 😢
+
+## Would you like to play with my pet?
+
+Open Node REPL in your terminal using node command.
+
+Copy ```const Pet = require('../src/pet');``` and return.
+
+Create your pet by entering ```const pet = new Pet('Dal').```
+
+Once you've done that, you can start taking care of your pet by using the methods provided in the pet.js file located in the src folder. These methods include feeding, walking, having babies, and checking on your pet's status.
 
 ## Contributing
 
