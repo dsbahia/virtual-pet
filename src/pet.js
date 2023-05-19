@@ -32,22 +32,16 @@ Pet.prototype.walk = function() {
     if (!this.isAlive) {
         throw new Error('Your pet is no longer alive :(');
     }
-    if ((this.fitness + 4) <= maximumFitness ) {
-        this.fitness += 4;
-    } else {
-        this.fitness = maximumFitness;
-    }
+    this.fitness = Math.min(this.fitness + 4, maximumFitness);
 }
 
 Pet.prototype.feed = function () {
     if (!this.isAlive) {
         throw new Error('Your pet is no longer alive :(');
     }
-    this.hunger -=3;
-    if (this.hunger < 0) {
-        this.hunger = 0;
-    }
+    this.hunger = Math.max(this.hunger - 3, minimumHunger);
 }
+
 
 Pet.prototype.checkUp = function () {
     if (!this.isAlive) {
