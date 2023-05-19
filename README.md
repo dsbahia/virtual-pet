@@ -25,7 +25,13 @@ Copy ```const Pet = require('../src/pet');``` and return.
 
 Create your pet by entering ```const pet = new Pet('Dal').```
 
-Once you've done that, you can start taking care of your pet by using the methods provided in the pet.js file located in the src folder. These methods include feeding, walking, having babies, and checking on your pet's status.
+The commands you can use are as follows:
+
+pet.growUp()
+pet.walk()
+pet.feed()
+pet.checkUp()
+pet.haveBaby('Insert Child Name Here')
 
 ## Contributing
 
