@@ -27,11 +27,11 @@ Create your pet by entering ```const pet = new Pet('Dal').```
 
 The commands you can use are as follows:
 
-pet.growUp()
-pet.walk()
-pet.feed()
-pet.checkUp()
-pet.haveBaby('Insert Child Name Here')
+- pet.growUp()
+- pet.walk()
+- pet.feed()
+- pet.checkUp()
+- pet.haveBaby('Insert Child Name Here')
 
 ## Contributing
 
