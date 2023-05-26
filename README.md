@@ -17,6 +17,12 @@ The pets we're going to make will have the following features:
 - If our pet gets too hungry or unfit, it will DIE 💀
 - If our pet gets to 30 days old it will DIE 😢
 
+## Development Setup
+
+Fork this repository and clone down your fork.
+
+Run npm install to install the necessary libraries required for Node.js to run.
+
 ## Would you like to play with my pet?
 
 Open Node REPL in your terminal using node command.
@@ -39,6 +45,10 @@ Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Authors
+
+- [Dal Bahia](https://github.com/dsbahia/) with great appreciation and thanks to [Command Shift](http://www.commandshift.co/)
 
 ## License
 
