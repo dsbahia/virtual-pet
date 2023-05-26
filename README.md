@@ -48,7 +48,7 @@ Please make sure to update tests as appropriate.
 
 ## Authors
 
-- [Dal Bahia](https://github.com/dsbahia/) with great appreciation and thanks to [Command Shift](http://www.commandshift.co/)
+[Dal Bahia](https://github.com/dsbahia/) with great appreciation and thanks to [Command Shift](http://www.commandshift.co/)
 
 ## License
 
